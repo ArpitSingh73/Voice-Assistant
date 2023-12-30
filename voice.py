@@ -529,13 +529,13 @@ while True:
             # This feature can be used locally by Twilio API
 
             # elif "send message" in text:
-            #     account_sid = "ACe2effc9f7e462bd04979b625958d4c44"
-            #     auth_token = "5355013ee06dd0dded2ec5d62d873c76"
+            #     account_sid = ""
+            #     auth_token = ""
             #     client = Client(account_sid, auth_token)
 
             #     talk("What should i send")
             #     message = client.messages.create(
-            #         body=rec_audio(), from_="+12242053708", to="+917339777697"
+            #         body=rec_audio(), from_="", to=""
             #     )
 
             #     print(message.sid)
